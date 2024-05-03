@@ -1,7 +1,6 @@
 public class Main {
-  public static void main(String[] args) {
-    System.out.println("Hellow World");
-    int var = 20;
-    System.out.println(var);
+
+  public static void main(String a[]) {
+    System.out.println("Hellow world");
   }
 }
