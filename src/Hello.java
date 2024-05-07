@@ -65,8 +65,12 @@ class Hello{
         students[1] = s2;
         students[2] = s3;
 
-        for(int i = 0; i < students.length; i++){
-            System.out.println(students[i].rollNo + " " + students[i].name + " : " + students[i].marks);
-        }
+//        for(Student stud : students){
+//            System.out. println(stud.rollNo + " " +stud.name + " : " + stud.marks);
+//        }
+
+        String name = "Ujjwal";
+        System.out.println("Hellow " + name);
+        System.out.println(name.concat(" Jaguri"));
     }
 }
